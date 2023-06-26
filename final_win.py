@@ -11,7 +11,7 @@ from instr import *
 class FinalWin(QWidget):
     def __init__(self, exp):
         ''' вікно, в якому проводиться опитування '''
-        super().__init__()
+        super().__init__()dgdf
 
         #отримуємо дані про експеримент
         self.exp = exp
@@ -97,7 +97,7 @@ class FinalWin(QWidget):
         self.layout_line.addWidget(self.index_text, alignment = Qt.AlignCenter)
         self.layout_line.addWidget(self.workh_text, alignment = Qt.AlignCenter)         
         self.setLayout(self.layout_line)
-
+#chekay prikol
    
     def set_appear(self):
         ''' встановлює, як виглядатиме вікно (напис, розмір, місце) '''
